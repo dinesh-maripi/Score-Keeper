@@ -44,7 +44,7 @@ function addScore(event) {
 }
 
 function playMusic(evnt) {
-    const songs = ['d.mp3', 'g.mp3', 'h.mp3', 'n.mp3', 'p.mp3'];
+    const songs = ['a.mpeg', 'b.mpeg', 'c.mpeg', 'e.mpeg', 'f.mpeg', 'd.mp3', 'g.mp3', 'h.mp3', 'i.mpeg', 'j.mpeg', 'k.mpeg', 'l.mpeg', 'm.mpeg', 'n.mp3', 'p.mp3'];
     const song = document.getElementById('music');
     const random = Math.floor(Math.random() * songs.length);
     song.src = `music/${songs[random]}`;
