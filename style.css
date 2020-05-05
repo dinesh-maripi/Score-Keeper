@@ -23,26 +23,24 @@ section{
     padding: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;  
+
 }
 
 #section-1 {
     justify-content: center;
-    background-color: yellow;
+    background-color: rgba(255, 230, 0, 0.966);
     letter-spacing: 2px;
     font-size: 20px;
     font-style: italic;
-    text-shadow: 2px 1px 1px rgb(179, 152, 152);
+    text-shadow: 3px 2px 2px rgb(86, 175, 123);
 }
 
-#section-2{
+#section-2 {
     font-style: italic;
     font-size: 25px;
-    /* padding: 5px; */
 }
 
-#section-3, #section-4, #section-5{
-    justify-content: space-between;  
-}
 
 #win-score{
     border: 3px solid black;
@@ -60,7 +58,7 @@ button{
     border: 2px solid rgb(0, 0, 8);
     border-radius: 10px 0;  
     background-color: cyan;
-    /* box-shadow: 1px 2px 2px;   */
+    box-shadow: 1px 2px 2px;  
 }
 
 #playing-to{
@@ -74,10 +72,6 @@ button{
     /* border: 1px solid blue; */
     font-size: 20px;
     font-style: italic;
-}
-
-#score-1{
-    text-transform: capitalize;
 }
 
 #music{
