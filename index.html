@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <section id="section-1">
+            <h1>Score Keeper!</h1>
+        </section>
+        <section id="section-2">
+            <p>Playing To: <span id="playing-to">0</span> </p>
+        </section>
+        <section id="section-3">
+            <input type="number" id="win-score" min="1" max="10" placeholder="set your winning score!">
+            <button id="music-btn" onclick="playMusic(event)">Music</button>
+        </section>
+        <section id="section-4">
+            <p id="player-1">P-1 Score: <span id="score-1">0 </span></p>
+            <button id="add-btn1" onclick="addScore(event)">Add</button>
+        </section>
+        <section id="section-5">
+            <p id="player-2">P-2 Score: <span id="score-2">0 </span></p>
+            <button id="add-btn2" onclick="addScore(event)">Add</button>
+        </section>
+        <section id="section-6">
+            <audio id="music" src="" type="audio/mpeg" controls></audio>
+        </section>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

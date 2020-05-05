@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(158, 201, 218);
+}
+
+.container{
+    width: 300px;
+    height: 350px;
+    border: 3px dotted rgba(245, 239, 239, 0.863);
+    padding: 20px;
+    margin: 5% auto;
+    background-color: cornflowerblue;
+}
+
+section{
+    /* border: 1px solid green; */
+    margin: 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-1 {
+    justify-content: center;
+    background-color: yellow;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 2px 1px 1px rgb(179, 152, 152);
+}
+
+#section-2{
+    font-style: italic;
+    font-size: 25px;
+    /* padding: 5px; */
+}
+
+#section-3, #section-4, #section-5{
+    justify-content: space-between;  
+}
+
+#win-score{
+    border: 3px solid black;
+    width: 160px;
+    padding: 0 10px;
+}
+
+#win-score:focus{
+    background-color: rgb(29, 231, 130);
+}
+
+button{
+    width: 50px;
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 8);
+    border-radius: 10px 0;  
+    background-color: cyan;
+    /* box-shadow: 1px 2px 2px;   */
+}
+
+#playing-to{
+    border: 2px ridge rgb(19, 1, 1);
+    padding: 0 5px;
+    border-radius: 3px;
+    color:white;
+}
+
+#player-1, #player-2{
+    /* border: 1px solid blue; */
+    font-size: 20px;
+    font-style: italic;
+}
+
+#score-1{
+    text-transform: capitalize;
+}
+
+#music{
+    height: 30px;
+    margin: auto;
+}
+
