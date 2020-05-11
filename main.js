@@ -26,7 +26,7 @@ document.body.addEventListener('keypress', (e) => {
 })
 
 
-function addScore(event) {
+function addScore() {
     const scoreField = event.srcElement.id === 'add-btn1' ? 'score-1' : 'score-2';
     let score = parseInt(document.getElementById(`${scoreField}`).textContent);
     if (gameOver) {
@@ -43,7 +43,7 @@ function addScore(event) {
     }
 }
 
-function playMusic(evnt) {
+function playMusic() {
     const songs = ['a.mpeg', 'b.mpeg', 'c.mpeg', 'e.mpeg', 'f.mpeg', 'd.mp3', 'g.mp3', 'h.mp3', 'i.mpeg', 'j.mpeg', 'k.mpeg', 'l.mpeg', 'm.mpeg', 'n.mp3', 'p.mp3'];
     const song = document.getElementById('music');
     const random = Math.floor(Math.random() * songs.length);
